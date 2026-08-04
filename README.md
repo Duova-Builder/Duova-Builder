@@ -40,3 +40,5 @@ assets/
 * Measure Real Outcomes
 
 This repository grows continuously as new projects are completed and existing projects evolve.
+
+© 2026 Dova Builder. All rights reserved.
