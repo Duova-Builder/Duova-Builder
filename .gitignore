@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node.js
+node_modules/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.*
+
+# Build
+dist/
+build/
+.cache/
+
+# Temporary
+tmp/
+temp/
+
+# Coverage
+coverage/
+
+# OS
+*.swp
