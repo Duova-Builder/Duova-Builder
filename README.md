@@ -23,16 +23,10 @@ principles/
 case-studies/
     Individual client and internal projects
 
-resources/
-    Reusable technical notes and references
-
-social/
+social-posts/
     Social media content derived from case studies
 
-website/
-    Source files for the Dova Builder website
-
-images/
+assets/
     Images and assets
 ```
 
