@@ -1,44 +1,74 @@
-# Dova Builder
+# Google Business Profile Overview
 
-Welcome to **Dova Builder**.
+## What is Google Business Profile?
 
-This repository is a living engineering journal that documents real-world client projects, technical decisions, business principles, and measurable results.
+Google Business Profile (GBP) is a free business listing provided by Google. It allows businesses to appear on Google Search and Google Maps, making it easier for potential customers to discover, contact, and trust a business.
 
-Instead of only showcasing finished work, this repository records the reasoning behind every important decision—from choosing hosting providers and designing websites to automation, SEO strategies, software development, and business workflows.
+A complete and well-maintained profile can improve local visibility, increase customer engagement, and support long-term local SEO efforts.
 
-## Goals
+---
 
-* Document real client projects from start to finish.
-* Explain why technical and business decisions were made.
-* Track long-term outcomes and improvements.
-* Build reusable knowledge for future projects.
-* Share practical experience instead of theoretical tutorials.
+## Core Profile Information
 
-## Repository Structure
+A Google Business Profile typically includes:
 
-```text
-principles/
-    Core working principles
+- Business name
+- Business category
+- Business description
+- Service area or business address
+- Phone number
+- Website
+- Business hours
+- Services
+- Photos and videos
+- Customer reviews
+- Business updates (Posts)
+- Questions & Answers
 
-case-studies/
-    Individual client and internal projects
+---
 
-social-posts/
-    Social media content derived from case studies
+## Why It Matters
 
-assets/
-    Images and assets
-```
+A well-optimized profile helps:
 
-## Philosophy
+- Increase visibility in local search results
+- Improve credibility and customer trust
+- Make it easier for customers to contact the business
+- Support local SEO
+- Showcase completed work through photos and updates
 
-* Documentation First
-* Client Owns Their Digital Assets
-* Simplicity Over Complexity
-* Automation When Practical
-* Security by Default
-* Measure Real Outcomes
+Google Business Profile should be treated as an active business asset rather than a one-time setup.
 
-This repository grows continuously as new projects are completed and existing projects evolve.
+---
 
-© 2026 Dova Builder. All rights reserved.
+## General Workflow
+
+1. Create or claim the business profile.
+2. Select the appropriate business category.
+3. Configure business information.
+4. Complete the verification process.
+5. Add services, business description, and photos.
+6. Keep the profile updated regularly.
+7. Monitor reviews and customer interactions.
+8. Publish business updates when appropriate.
+
+---
+
+## Best Practices
+
+- Use the official business name consistently across all platforms.
+- Provide accurate contact information.
+- Keep business hours updated.
+- Upload high-quality photos regularly.
+- Respond to customer reviews professionally.
+- Keep website and Google Business information consistent.
+- Avoid misleading or inaccurate information.
+
+---
+
+## Related Documents
+
+- storefront-vs-service-area.md
+- verification.md
+- optimization.md
+- faq.md
