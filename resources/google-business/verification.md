@@ -82,6 +82,22 @@ The selected business type should accurately reflect how the business actually o
 
 ---
 
+# Important Notes
+
+Google may request verification regardless of business type.
+
+Verification requirements can vary depending on:
+
+- Business category
+- Business history
+- Risk assessment
+- Account history
+- Region
+
+There is no guaranteed verification method, and Google may change available verification options over time.
+
+---
+
 # Best Practices
 
 - Follow Google's official guidelines.
