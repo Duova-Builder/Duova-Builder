@@ -23,7 +23,13 @@ Website:
 https://brightvista.ca/
 
 Social profiles:
+- 
+- 
+- 
+- 
+- 
 
+Location: 6370 Vivian St Vancouver, BC V5S 2S7
 
 主营业务: 
 - 房屋外墙油漆
@@ -44,7 +50,7 @@ Services Provided:
 - Yard Landscaping
 - Aluminum Pergola Installation
 
-Phone: 
+
 Email: info.brightvistahome@gmail.com
-Location: 6370 Vivian St Vancouver, BC V5S 2S7
+
 Hours: Mon-Sun 7:00AM - 9:00PM
