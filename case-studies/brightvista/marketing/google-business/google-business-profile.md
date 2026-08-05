@@ -1,3 +1,42 @@
+
+
+
+Business Type
+Service Area Business
+
+Primary Category
+Painter
+
+Secondary Categories
+Pressure Washing Service
+Roof Cleaning Service
+Landscape Designer
+
+Business Description
+...
+
+Phone
+...
+
+Website
+...
+
+Service Areas
+...
+
+Business Hours
+...
+
+Verification
+Completed by video verification.
+
+Notes
+
+- Business card used.
+- Company vehicle shown.
+- Work equipment shown.
+
+
 主营业务: 
 - 房屋外墙油漆
 - 屋顶软洗

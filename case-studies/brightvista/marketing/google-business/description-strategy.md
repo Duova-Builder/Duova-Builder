@@ -1,13 +1,3 @@
-Description
-
-BrightVista Home Services Ltd. is a professional home improvement contractor serving homeowners throughout Greater Vancouver, including Vancouver, Burnaby, Richmond, Surrey, Coquitlam, Langley, and North Vancouver.
-
-We specialize in exterior house painting, roof soft washing, exterior wall and driveway pressure washing, fence replacement, landscaping improvements, and aluminum gazebo installation. Our services help homeowners enhance curb appeal, and maintain clean, attractive outdoor spaces.
-
-With a focus on reliable workmanship, clear communication, and quality results, BrightVista Home Services Ltd. provides professional exterior maintenance and improvement solutions for residential properties across the Greater Vancouver area.
-
-----
-
 # Google Business Profile Description Strategy
 
 ## Purpose
