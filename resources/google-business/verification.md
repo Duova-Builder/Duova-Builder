@@ -1,106 +1,123 @@
-# Storefront vs Service Area Business
+# Verification
 
-Choosing the correct business type is one of the first and most important decisions when creating a Google Business Profile.
+## Overview
 
-Google generally recognizes two common business models:
+Google requires most businesses to complete a verification process before the Business Profile becomes fully visible and manageable.
 
-- Storefront Business
-- Service Area Business (SAB)
+Verification helps Google confirm that:
 
-Some businesses may also operate as a hybrid of both.
+- The business exists.
+- The business operates at the stated location or service area.
+- The person managing the profile is authorized to represent the business.
+
+Google determines the available verification method automatically. Businesses cannot choose their preferred verification option.
 
 ---
 
-# Storefront Business
+## Possible Verification Methods
 
-A storefront business serves customers at a physical location where customers are expected to visit.
+Depending on the business, Google may offer one or more of the following methods:
+
+- Video verification
+- Phone call
+- SMS
+- Email
+- Postcard
+- Search Console
+- Instant verification (limited cases)
+
+The available methods may change over time.
+
+---
+
+## Video Verification
+
+Video verification has become one of the most common verification methods for new businesses.
+
+Google requires one continuous recording.
+
+The recording should normally demonstrate:
+
+### Business Location
+
+Examples:
+
+- Street signs
+- House number
+- Building exterior
+- Surrounding area
+
+The location should match the service area or business address provided.
+
+---
+
+### Business Identity
+
+Examples:
+
+- Business card
+- Vehicle branding
+- Business licence
+- Company documents
+
+The business name should match the Google Business Profile.
+
+---
+
+### Business Operations
+
+Examples:
+
+- Work tools
+- Equipment
+- Booking system
+- Office
+- Work vehicle
+
+The goal is to demonstrate that the business is actively operating.
+
+---
+
+## Preparation Checklist
+
+Before recording:
+
+- Confirm business information is accurate.
+- Prepare documents if needed.
+- Prepare business equipment.
+- Plan the recording route.
+- Ensure a stable internet connection.
+- Record in one continuous take.
+
+---
+
+## Common Reasons for Verification Failure
 
 Examples include:
 
-- Restaurants
-- Retail stores
-- Coffee shops
-- Clinics
-- Hair salons
-- Auto repair shops
+- Business information does not match.
+- Unable to demonstrate business operations.
+- Video is interrupted.
+- Unable to identify the business location.
+- Insufficient evidence that the business is genuine.
 
-Characteristics:
-
-- Public business address
-- Customers visit the location
-- Business hours reflect when customers can visit
-
-A storefront business normally displays its address publicly on Google Maps.
+Google may request additional verification if necessary.
 
 ---
 
-# Service Area Business (SAB)
+## Best Practices
 
-A Service Area Business travels to customers instead of serving them at a public storefront.
-
-Examples include:
-
-- House painters
-- Pressure washing companies
-- Roof cleaning services
-- Landscaping companies
-- Electricians
-- Plumbers
-- Mobile detailing
-- Cleaning services
-
-Characteristics:
-
-- Customers are served at their location.
-- A public storefront is not required.
-- The business defines one or more service areas.
-- The business address can be hidden from the public.
+- Use accurate business information.
+- Keep branding consistent.
+- Record naturally without editing.
+- Follow Google's instructions carefully.
+- Refer to Google's official documentation for the latest requirements.
 
 ---
 
-# Hybrid Businesses
+## Related Documents
 
-Some businesses have both:
-
-- A physical location customers can visit.
-- On-site services provided at customer locations.
-
-Depending on the business model, Google may allow both a visible storefront and defined service areas.
-
----
-
-# Choosing the Correct Business Type
-
-When deciding between Storefront and Service Area Business, consider:
-
-- Where customers receive the service
-- Whether customers visit the business location
-- Whether the business location is staffed during business hours
-- Whether displaying the address is appropriate
-
-The selected business type should accurately reflect how the business actually operates.
-
----
-
-# Important Notes
-
-Google may request verification regardless of business type.
-
-Verification requirements can vary depending on:
-
-- Business category
-- Business history
-- Risk assessment
-- Account history
-- Region
-
-There is no guaranteed verification method, and Google may change available verification options over time.
-
----
-
-# Best Practices
-
-- Follow Google's official guidelines.
-- Choose the business type that accurately represents the real business.
-- Keep business information consistent across all platforms.
-- Do not create a storefront listing for a location where customers are not actually served.
+- overview.md
+- storefront-vs-service-area.md
+- optimization.md
+- references.md
