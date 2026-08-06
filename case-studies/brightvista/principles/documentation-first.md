@@ -1,6 +1,6 @@
 # Principle: Documentation Is Part of the Product
 
-At DovaBuilder, documentation is considered part of the final product—not an optional extra.
+At DovaBuilder, documentation is considered part of the final product - not an optional extra.
 
 Every important decision should be documented, including the available options, the reasoning behind the final choice, and the outcome after implementation. Documentation creates a transparent record that helps both the client and future maintainers understand how and why the project evolved.
 
