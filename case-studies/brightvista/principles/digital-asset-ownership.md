@@ -33,4 +33,4 @@ Businesses may work with different designers, developers, or marketing agencies 
 
 ## Our role
 
-Dova Builder builds, configures, and manages digital platforms on behalf of clients, but we do not own their digital assets. Our goal is to help businesses establish a secure, sustainable, and transferable digital foundation that they fully control.
+DovaBuilder builds, configures, and manages digital platforms on behalf of clients, but we do not own their digital assets. Our goal is to help businesses establish a secure, sustainable, and transferable digital foundation that they fully control.
