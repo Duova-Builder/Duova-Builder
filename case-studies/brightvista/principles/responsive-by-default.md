@@ -1,6 +1,6 @@
 # Principle: Responsive Design by Default
 
-At Dova Builder, every website should provide a consistent and usable experience across different devices and screen sizes.
+At DovaBuilder, every website should provide a consistent and usable experience across different devices and screen sizes.
 
 Responsive design is not about making a desktop website smaller. It is about designing layouts that adapt intelligently based on user needs, available space, and device capabilities.
 
@@ -45,7 +45,7 @@ A responsive solution should be understandable and maintainable by future develo
 
 ## Our approach
 
-Dova Builder focuses on building websites that adapt naturally instead of forcing content into fixed layouts.
+DovaBuilder focuses on building websites that adapt naturally instead of forcing content into fixed layouts.
 
 Every design decision considers:
 
