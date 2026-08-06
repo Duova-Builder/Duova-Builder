@@ -65,21 +65,3 @@ The description avoids keyword stuffing and does not repeat location or service 
 
    * Highlights workmanship, communication, and quality.
    * Makes the description more customer-focused instead of only keyword-focused.
-
-## Future Optimization
-
-The description can be updated later based on:
-
-* Google Search Console search terms
-* Google Business Profile performance data
-* Customer review keywords
-* New services added by the company
-
-The strongest local ranking factors will continue to be:
-
-* Accurate primary and secondary categories
-* Complete service list
-* Consistent business information (NAP)
-* Customer reviews
-* Photos and project updates
-* Regular Google Business Profile activity
