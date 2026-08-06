@@ -1,6 +1,6 @@
 # Principle: The Client Owns Their Digital Assets
 
-At Dova Builder, every digital asset should be owned and controlled by the client from day one.
+At DovaBuilder, every digital asset should be owned and controlled by the client from day one.
 This includes, but is not limited to:
 
 * Domain names
@@ -11,7 +11,7 @@ This includes, but is not limited to:
 * Social media accounts
 * Business email accounts
 * Other third-party platforms and services
-  Whenever possible, all accounts are registered using the client's own email address, with Dova Builder added as an administrator, manager, or collaborator when necessary.
+  Whenever possible, all accounts are registered using the client's own email address, with DovaBuilder added as an administrator, manager, or collaborator when necessary.
 
 ## Why this principle matters
 
