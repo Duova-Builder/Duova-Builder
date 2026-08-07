@@ -15,7 +15,7 @@ df = df[
 # Calculate total stock for each SKU
 df["TotalStock"] = df.groupby("SKU")["Available"].transform("sum")
 
-# Keep SKUs with total stock >= 40
+# Keep SKUs with total stock >= 50
 result = df[df["TotalStock"] >= 50]
 
 # Keep one row per SKU
