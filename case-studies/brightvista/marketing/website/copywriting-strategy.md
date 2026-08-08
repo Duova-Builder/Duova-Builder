@@ -16,15 +16,12 @@ The website copy is designed around three primary goals:
 
 ### 2. Hero Section Strategy
 
-The hero section uses:
-**“Professional Exterior Home Services in Greater Vancouver”**
-This headline was selected because it communicates both the company's service category and geographic market immediately.
-Important SEO concepts included:
-
-* Exterior Home Services
-* Greater Vancouver
-  The subtitle expands the topic naturally by mentioning the six major service categories without turning the hero section into a keyword list.
-  The primary CTA, **“Get a Free Quote,”** focuses on conversion rather than SEO. The homepage should not only attract visitors from search engines; it should encourage them to contact the company.
+**Hero Title**
+Professional Exterior Home Services in Greater Vancouver
+**Subtitle**
+Reliable exterior painting, soft washing, pressure washing, fencing, landscaping, and pergola installation for homeowners . 
+**CTA**
+Get a free quote today!
 
 ### 3. About Section Strategy
 
