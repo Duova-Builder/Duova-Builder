@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BrightVista Home Services — 景阳房屋维护</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+  :root{
+    --stone:#EDE7DA;
+    --stone-dim:#E2DBC9;
+    --ink:#23302B;
+    --ink-soft:#455249;
+    --cedar:#A9713C;
+    --cedar-deep:#8A5A2C;
+    --basin:#3E6E67;
+    --basin-deep:#2E524D;
+    --line:#C9BFA8;
+    --white:#FBFAF6;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    background:var(--stone);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit; text-decoration:none;}
+  .mono{font-family:'IBM Plex Mono',monospace; letter-spacing:.02em;}
+  .wrap{max-width:1180px; margin:0 auto; padding:0 32px;}
+
+  /* NAV */
+  nav{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:26px 32px; max-width:1180px; margin:0 auto;
+    border-bottom:1px solid var(--line);
+  }
+  .logo{font-family:'Fraunces',serif; font-weight:700; font-size:22px; letter-spacing:-.01em;}
+  .logo span{color:var(--basin);}
+  .navlinks{display:flex; gap:36px; font-size:14px; font-weight:500;}
+  .navlinks a{opacity:.75; transition:opacity .2s;}
+  .navlinks a:hover{opacity:1;}
+  .navcta{
+    background:var(--ink); color:var(--white); padding:11px 22px;
+    border-radius:2px; font-size:14px; font-weight:600;
+  }
+  @media(max-width:860px){.navlinks{display:none;}}
+
+  /* HERO */
+  .hero{
+    padding:100px 32px 70px; max-width:1180px; margin:0 auto;
+    display:grid; grid-template-columns:1.1fr .9fr; gap:60px; align-items:end;
+  }
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace; font-size:12px; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--cedar-deep); margin-bottom:18px;
+    display:flex; align-items:center; gap:10px;
+  }
+  .eyebrow::before{content:''; width:22px; height:1px; background:var(--cedar-deep);}
+  h1{
+    font-family:'Fraunces',serif; font-weight:600; font-size:60px; line-height:1.03;
+    letter-spacing:-.02em; max-width:11ch;
+  }
+  h1 em{font-style:italic; color:var(--basin-deep);}
+  .hero-sub{margin-top:24px; font-size:17px; color:var(--ink-soft); max-width:42ch;}
+  .hero-ctas{display:flex; gap:14px; margin-top:34px;}
+  .btn-primary{
+    background:var(--cedar); color:var(--white); padding:15px 26px; font-weight:600;
+    font-size:15px; border-radius:2px; display:inline-block;
+  }
+  .btn-ghost{
+    border:1px solid var(--ink); padding:14px 24px; font-weight:600; font-size:15px;
+    border-radius:2px; display:inline-block;
+  }
+  .hero-stats{
+    border-left:1px solid var(--line); padding-left:36px; display:flex; flex-direction:column; gap:22px;
+  }
+  .stat b{font-family:'Fraunces',serif; font-size:34px; font-weight:600; display:block;}
+  .stat span{font-size:13px; color:var(--ink-soft);}
+
+  /* BLUEPRINT SECTION — signature element */
+  .blueprint{
+    background:var(--ink); color:var(--stone); padding:90px 32px; margin-top:20px;
+  }
+  .blueprint-inner{max-width:1180px; margin:0 auto;}
+  .bp-head{display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:56px; flex-wrap:wrap; gap:20px;}
+  .bp-head h2{font-family:'Fraunces',serif; font-size:36px; font-weight:600; max-width:16ch;}
+  .bp-head p{font-size:14px; color:#B7C4BC; max-width:34ch;}
+  .house-diagram{
+    position:relative; border:1px solid rgba(237,231,218,.18); border-radius:2px;
+    padding:50px 40px; display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
+    background:rgba(237,231,218,.08);
+  }
+  .zone{
+    background:var(--ink); padding:26px 22px; position:relative;
+    transition:background .25s;
+  }
+  .zone:hover{background:#2C3A34;}
+  .zone .num{font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--cedar);}
+  .zone h3{font-family:'Fraunces',serif; font-size:19px; font-weight:600; margin:10px 0 8px;}
+  .zone p{font-size:13px; color:#AEBBB3; line-height:1.55;}
+
+  /* SERVICES GRID */
+  .services{padding:100px 32px; max-width:1180px; margin:0 auto;}
+  .sec-head{max-width:56ch; margin-bottom:52px;}
+  .sec-head .eyebrow{color:var(--basin-deep);}
+  .sec-head h2{font-family:'Fraunces',serif; font-size:38px; font-weight:600; letter-spacing:-.01em;}
+  .svc-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line);}
+  .svc-card{background:var(--stone); padding:34px 28px;}
+  .svc-card .num{font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--ink-soft);}
+  .svc-card h3{font-family:'Fraunces',serif; font-size:21px; font-weight:600; margin:14px 0 10px;}
+  .svc-card p{font-size:14px; color:var(--ink-soft);}
+  @media(max-width:860px){.svc-grid{grid-template-columns:1fr;} .house-diagram{grid-template-columns:1fr;}}
+
+  /* CASE STUDIES */
+  .cases{background:var(--white); padding:100px 32px;}
+  .cases-inner{max-width:1180px; margin:0 auto;}
+  .case-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:26px; margin-top:10px;}
+  .case-card{border:1px solid var(--line); background:var(--stone);}
+  .case-media{
+    aspect-ratio:4/3; background:linear-gradient(135deg,var(--basin) 0%,var(--ink) 100%);
+    display:flex; align-items:center; justify-content:center; color:var(--stone);
+    font-family:'IBM Plex Mono',monospace; font-size:12px; letter-spacing:.06em; text-transform:uppercase;
+    position:relative;
+  }
+  .play{
+    position:absolute; bottom:14px; right:14px; width:34px; height:34px; border-radius:50%;
+    border:1px solid rgba(237,231,218,.5); display:flex; align-items:center; justify-content:center; font-size:11px;
+  }
+  .case-body{padding:20px 22px 24px;}
+  .case-loc{font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--cedar-deep); text-transform:uppercase; letter-spacing:.08em;}
+  .case-body h3{font-family:'Fraunces',serif; font-size:19px; font-weight:600; margin:8px 0 6px;}
+  .case-body p{font-size:13px; color:var(--ink-soft);}
+  @media(max-width:860px){.case-grid{grid-template-columns:1fr 1fr;}}
+  @media(max-width:600px){.case-grid{grid-template-columns:1fr;}}
+
+  /* SOCIAL / TRUST */
+  .trust{padding:90px 32px; max-width:1180px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:60px;}
+  .trust h2{font-family:'Fraunces',serif; font-size:32px; font-weight:600; margin-bottom:18px; max-width:14ch;}
+  .trust p{color:var(--ink-soft); font-size:15px; max-width:44ch;}
+  .socialrow{display:flex; flex-wrap:wrap; gap:10px; margin-top:26px;}
+  .schip{border:1px solid var(--ink); padding:9px 16px; font-size:13px; font-weight:600; border-radius:20px;}
+  .quote-block{border-left:2px solid var(--cedar); padding-left:24px;}
+  .quote-block p{font-family:'Fraunces',serif; font-style:italic; font-size:19px; color:var(--ink);}
+  .quote-block span{display:block; margin-top:14px; font-size:13px; color:var(--ink-soft);}
+  @media(max-width:860px){.trust{grid-template-columns:1fr;}}
+
+  /* CTA / CONTACT */
+  .cta-band{background:var(--basin-deep); color:var(--white); padding:80px 32px; text-align:center;}
+  .cta-band h2{font-family:'Fraunces',serif; font-size:36px; font-weight:600; max-width:20ch; margin:0 auto 18px;}
+  .cta-band p{opacity:.85; font-size:15px; margin-bottom:30px;}
+  .cta-band .btn-primary{background:var(--cedar);}
+
+  footer{padding:50px 32px; max-width:1180px; margin:0 auto; display:flex; justify-content:space-between; flex-wrap:wrap; gap:20px; font-size:13px; color:var(--ink-soft); border-top:1px solid var(--line);}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">BrightVista <span>景阳</span></div>
+  <div class="navlinks">
+    <a href="#">服务项目</a>
+    <a href="#">案例展示</a>
+    <a href="#">关于我们</a>
+    <a href="#">服务区域</a>
+    <a href="#">联系我们</a>
+  </div>
+  <a class="navcta" href="#">免费估价</a>
+</nav>
+
+<section class="hero">
+  <div>
+    <div class="eyebrow">大温哥华 · 房屋外部养护</div>
+    <h1>让房子的<em>外表</em>，配得上你对它的用心</h1>
+    <p class="hero-sub">外墙油漆、屋顶软洗、高压清洗、围栏更换、庭院绿化与铝合金凉亭安装 — 一支团队，全程负责。服务南素里、温西及大温各区。</p>
+    <div class="hero-ctas">
+      <a class="btn-primary" href="#">预约免费上门估价</a>
+      <a class="btn-ghost" href="#">查看案例</a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="stat"><b>5+</b><span class="mono">近期完工案例 · 图文+视频记录</span></div>
+    <div class="stat"><b>6</b><span class="mono">核心服务项目</span></div>
+    <div class="stat"><b>南素里 / 温西</b><span class="mono">及大温周边地区</span></div>
+  </div>
+</section>
+
+<section class="blueprint">
+  <div class="blueprint-inner">
+    <div class="bp-head">
+      <h2>把房子拆开看，每一处都有人负责</h2>
+      <p>从屋顶到地面，从围栏到后院——按房屋结构逐区养护，而不是零散报价。</p>
+    </div>
+    <div class="house-diagram">
+      <div class="zone"><div class="num">01 · 屋顶</div><h3>屋顶软洗</h3><p>低压软洗清除苔藓、藻类与污渍，延长屋顶寿命，不损伤瓦片。</p></div>
+      <div class="zone"><div class="num">02 · 外墙</div><h3>外墙油漆</h3><p>专业遮蔽、打磨、底漆与面漆，耐候涂料应对温哥华多雨气候。</p></div>
+      <div class="zone"><div class="num">03 · 地面/车道</div><h3>高压清洗</h3><p>车道、露台、走道深层清洁，去除油渍、青苔与多年积垢。</p></div>
+      <div class="zone"><div class="num">04 · 围栏</div><h3>围栏更换</h3><p>老化围栏拆除与重建，木质/复合材料可选，含五金加固。</p></div>
+      <div class="zone"><div class="num">05 · 庭院</div><h3>庭院绿化</h3><p>草坪修整、花坛设计、树篱造型，四季维护方案。</p></div>
+      <div class="zone"><div class="num">06 · 户外空间</div><h3>铝合金凉亭安装</h3><p>定制凉亭安装，打造可全年使用的户外休闲区域。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="services">
+  <div class="sec-head">
+    <div class="eyebrow">核心业务</div>
+    <h2>六项服务，覆盖房屋外部养护的每一个环节</h2>
+  </div>
+  <div class="svc-grid">
+    <div class="svc-card"><div class="num mono">01</div><h3>外墙油漆</h3><p>住宅外墙翻新涂装，含色卡咨询与耐候涂料推荐。</p></div>
+    <div class="svc-card"><div class="num mono">02</div><h3>屋顶软洗</h3><p>低压软洗工艺，安全清除苔藓与藻类污染。</p></div>
+    <div class="svc-card"><div class="num mono">03</div><h3>高压清洗</h3><p>外墙、车道、露台的深层污渍清洁。</p></div>
+    <div class="svc-card"><div class="num mono">04</div><h3>围栏更换</h3><p>拆除旧围栏、重建新围栏，含设计选型。</p></div>
+    <div class="svc-card"><div class="num mono">05</div><h3>庭院绿化</h3><p>草坪、花坛、树篱的规划与定期养护。</p></div>
+    <div class="svc-card"><div class="num mono">06</div><h3>铝合金凉亭安装</h3><p>定制户外凉亭安装，提升庭院使用空间。</p></div>
+  </div>
+</section>
+
+<section class="cases">
+  <div class="cases-inner">
+    <div class="sec-head">
+      <div class="eyebrow">案例展示</div>
+      <h2>近期完工项目</h2>
+    </div>
+    <div class="case-grid">
+      <div class="case-card"><div class="case-media">图片 / 视频占位<div class="play">▶</div></div><div class="case-body"><div class="case-loc">South Surrey</div><h3>独栋外墙油漆翻新</h3><p>外墙全面翻新，含遮蔽保护与两道面漆施工。</p></div></div>
+      <div class="case-card"><div class="case-media">图片 / 视频占位<div class="play">▶</div></div><div class="case-body"><div class="case-loc">West Vancouver</div><h3>屋顶软洗 + 车道高压清洗</h3><p>屋顶苔藓清除，车道深层去污，一日完工。</p></div></div>
+      <div class="case-card"><div class="case-media">图片 / 视频占位<div class="play">▶</div></div><div class="case-body"><div class="case-loc">South Surrey</div><h3>后院围栏全面更换</h3><p>拆除老化木围栏，重建加固新围栏。</p></div></div>
+      <div class="case-card"><div class="case-media">图片 / 视频占位<div class="play">▶</div></div><div class="case-body"><div class="case-loc">West Vancouver</div><h3>庭院绿化改造</h3><p>草坪修整、花坛重新设计与树篱造型。</p></div></div>
+      <div class="case-card"><div class="case-media">图片 / 视频占位<div class="play">▶</div></div><div class="case-body"><div class="case-loc">Coquitlam</div><h3>铝合金凉亭安装</h3><p>后院全新休闲空间，从测量到安装全程记录。</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="trust">
+  <div>
+    <div class="eyebrow">客户评价</div>
+    <div class="quote-block">
+      <p>"整个团队从报价到完工都很专业，屋顶软洗后完全看不出十年的苔藓痕迹。"</p>
+      <span>— South Surrey 业主</span>
+    </div>
+  </div>
+  <div>
+    <h2>关注我们，看每一次施工的完整记录</h2>
+    <p>我们定期在多个平台更新施工过程、前后对比与庭院改造思路，不止是完工照片。</p>
+    <div class="socialrow">
+      <span class="schip">Google Business</span>
+      <span class="schip">小红书</span>
+      <span class="schip">Instagram</span>
+      <span class="schip">Facebook</span>
+      <span class="schip">TikTok</span>
+      <span class="schip">YouTube</span>
+      <span class="schip">X / Twitter</span>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <h2>想让您的房子焕然一新？</h2>
+  <p>免费上门评估，当天出具报价单</p>
+  <a class="btn-primary" href="#">立即预约</a>
+</section>
+
+<footer>
+  <div>BrightVista Home Services Ltd. · 景阳房屋维护</div>
+  <div class="mono">大温哥华地区 · South Surrey · West Vancouver</div>
+</footer>
+
+</body>
+</html>
