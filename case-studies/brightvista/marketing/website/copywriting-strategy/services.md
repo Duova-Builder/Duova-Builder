@@ -1,5 +1,6 @@
 ## Our Services
 
+### Main Services
 Exterior House Painting
 - Refresh & Protect Your Home's Exterior
 
@@ -9,6 +10,8 @@ Roof Soft Washing
 Exterior Wall & Driveway Pressure Washing
 - Restore the Look of Outdoor Surfaces
 
+
+### Additional Services
 We also offer
 In addition to our core exterior home services, we also provides a range of additional services to help homeowners maintain and improve their outdoor spaces.
 - Fence Replacement
