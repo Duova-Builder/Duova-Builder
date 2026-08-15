@@ -53,19 +53,6 @@ If those additional capabilities do not provide meaningful business value or add
 > **Engineering for engineering's sake.**
 > That is not necessarily a better engineering decision.
 
-## Practical Decision Rule
-
-Before introducing additional complexity, ask:
-
-1. **What problem does this solve?**
-2. **What business value does it provide?**
-3. **What operational risk does it reduce or introduce?**
-4. **Is the existing solution already sufficient?**
-5. **What additional maintenance will this require?**
-6. **Will the client or project actually benefit from the added capability?**
-7. **Is the additional complexity justified by the expected outcome?**
-   If the answer does not justify the added complexity, prefer the simpler solution.
-
 ## Simplicity Is a Technical Decision
 
 Choosing a managed platform over custom infrastructure is not necessarily a less technical decision. It can be a deliberate engineering choice to outsource infrastructure responsibilities when the platform already provides the required capabilities reliably.
