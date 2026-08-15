@@ -23,13 +23,6 @@ Confidential information may include, but is not limited to:
 
 A portfolio only demonstrates **capability, judgment, and results** without compromising client or employer confidentiality.
 Real project experience can be documented through appropriate technical descriptions, engineering decisions, challenges, and outcomes. However, confidential information should never be published merely because it would make a case study more detailed or visually compelling.
-When appropriate, project documentation may use:
-
-* Anonymized or generalized information
-* Synthetic or reconstructed data
-* Redacted screenshots
-* Publicly available information
-* High-level technical descriptions
 
 ## Disclosure Standard
 
