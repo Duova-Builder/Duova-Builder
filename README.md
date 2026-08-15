@@ -20,8 +20,14 @@ Instead of only showcasing finished work, this repository records the reasoning 
 principles/
     Core working principles
 
+engineering/
+    How we build and maintain systems
+
 case-studies/
-    Individual client and internal projects
+    What we have built
+
+tools
+    What we use to execute the work
 
 social-posts/
     Social media content derived from case studies
